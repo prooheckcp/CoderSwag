@@ -10,7 +10,7 @@ class ProductsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_products)
 
-        intent.getStringExtra(EXTRA_CATEGORY)
+        val categoryType = intent.getStringExtra(EXTRA_CATEGORY)
 
     }
 }
